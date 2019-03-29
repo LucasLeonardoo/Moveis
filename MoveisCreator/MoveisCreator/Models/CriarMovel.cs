@@ -13,7 +13,9 @@ namespace MovelCreator.Models
         [Key]
         public int Id { get; set; }
         
-        public int CadeiraId { get; set; }
+        public int MovelId { get; set; }
+
+        public int EstiloId { get; set; }
 
         public Movel Movel { get; set; }
 

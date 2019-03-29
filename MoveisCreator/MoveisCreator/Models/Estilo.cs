@@ -8,14 +8,13 @@ using System.Threading.Tasks;
 namespace MovelCreator.Models
 {
     [Table("Estilos")]
-    public abstract class Estilo
+    public class Estilo
     {
         [Key]
         public int Id { get; set; }
-
-        public virtual String NomeDoEstilo { get; protected set; }
-
-        public abstract String Propriedades();
+        
+        [Display(Name = "Nome do Estilo")]
+        public string NomeDoEstilo { get; set; }
     }
 
 }

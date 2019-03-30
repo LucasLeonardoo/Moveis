@@ -197,6 +197,7 @@
     <Content Include="Views\Estilo\Details.cshtml" />
     <Content Include="Views\Estilo\Edit.cshtml" />
     <Content Include="Views\Estilo\Index.cshtml" />
+    <Content Include="Views\Movel\CriarMovel.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

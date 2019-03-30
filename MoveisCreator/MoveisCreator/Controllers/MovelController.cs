@@ -151,13 +151,13 @@ namespace MoveisCreator.Controllers
             novoMovel.Estilo = estiloAux;
             if (CriarMovelDAO.CriandoMovel(novoMovel))
             {
-                return RedirectToAction("Movel", "Index");
+                return RedirectToAction("Index", "Movel");
             }
 
 
             
 
-            return RedirectToAction("Home", "Index");
+            return RedirectToAction("Index", "Home");
         }
 
 

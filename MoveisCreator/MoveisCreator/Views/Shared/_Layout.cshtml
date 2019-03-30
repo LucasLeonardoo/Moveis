@@ -30,11 +30,14 @@
     </div>
     <div class="container body-content">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - Arquitetura de Software</p>
-        </footer>
     </div>
+
+    <footer>
+        <div style="bottom:0; position:fixed; width:100% ">
+            <p style="text-align:center;">&copy; @DateTime.Now.Year - Arquitetura de Software</p>
+        </div>
+    </footer>
+
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")

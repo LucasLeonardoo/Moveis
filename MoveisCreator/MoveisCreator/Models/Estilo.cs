@@ -11,7 +11,7 @@ namespace MovelCreator.Models
     public class Estilo
     {
         [Key]
-        public int Id { get; set; }
+        public int EstiloId { get; set; }
         
         [Display(Name = "Nome do Estilo")]
         public string NomeDoEstilo { get; set; }

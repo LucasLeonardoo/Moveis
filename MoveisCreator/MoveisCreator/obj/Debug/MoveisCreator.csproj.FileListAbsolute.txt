@@ -166,5 +166,5 @@ C:\Users\lucas\Documents\Faculdade\ArquiteturaSW\Moveis\MoveisCreator\MoveisCrea
 C:\Users\lucas\Documents\Faculdade\ArquiteturaSW\Moveis\MoveisCreator\MoveisCreator\obj\Debug\MoveisCreator.csproj.CopyComplete
 C:\Users\lucas\Documents\Faculdade\ArquiteturaSW\Moveis\MoveisCreator\MoveisCreator\obj\Debug\MoveisCreator.dll
 C:\Users\lucas\Documents\Faculdade\ArquiteturaSW\Moveis\MoveisCreator\MoveisCreator\obj\Debug\MoveisCreator.pdb
-C:\Users\lucas\Documents\Faculdade\ArquiteturaSW\Moveis\MoveisCreator\MoveisCreator\obj\Debug\MoveisCreator.Migrations.PrimeiraMigração.resources
+C:\Users\lucas\Documents\Faculdade\ArquiteturaSW\Moveis\MoveisCreator\MoveisCreator\obj\Debug\MoveisCreator.Migrations.primeira.resources
 C:\Users\lucas\Documents\Faculdade\ArquiteturaSW\Moveis\MoveisCreator\MoveisCreator\obj\Debug\MoveisCreator.csproj.GenerateResource.cache

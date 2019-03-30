@@ -11,7 +11,7 @@ namespace MovelCreator.Models
     public class Movel
     {
         [Key]
-        public int Id { get; set; }
+        public int MovelId { get; set; }
 
         [Required(ErrorMessage = "Campo Obrigatório!")]
         [Display(Name = "Nome do Movel")]

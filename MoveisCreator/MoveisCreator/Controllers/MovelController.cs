@@ -118,7 +118,7 @@ namespace MoveisCreator.Controllers
         }
 
         // Criar Movel com Estilo
-        public ActionResult CriarMovelComEstilo()
+        public ActionResult CriarMovel()
         {
             ViewBag.MovelId = new SelectList(db.Moveis, "MovelId", "NomeDoMovel");
             ViewBag.EstiloId = new SelectList(db.Estilos, "EstiloId", "NomeDoEstilo");
@@ -140,7 +140,7 @@ namespace MoveisCreator.Controllers
         // Criar Movel Com Estilo ..
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult CriarMovelComEstilo([Bind(Include = "MovelId, CursoId")] Movel movel, Estilo estilo)
+        public ActionResult CriarMovel([Bind(Include = "MovelId, CursoId")] Movel movel, Estilo estilo)
         {
             Movel movelAux = db.Moveis.Find(movel.MovelId);
             Estilo estiloAux = db.Estilos.Find(estilo.EstiloId);

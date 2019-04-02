@@ -201,6 +201,7 @@
     <Content Include="Views\Estilo\Index.cshtml" />
     <Content Include="Views\CriarMovel\CriarMovel.cshtml" />
     <Content Include="Views\CriarMovel\Index.cshtml" />
+    <Content Include="Views\CriarMovel\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -62,5 +62,31 @@ namespace MoveisCreator.Controllers
 
             return RedirectToAction("Index", "Home");
         }
+
+        // GET: CriarMovel/Delete/5
+        public ActionResult Delete(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            CriarMovel criarMovel = db.CriarMoveis.Find(id);
+            if (criarMovel == null)
+            {
+                return HttpNotFound();
+            }
+            return View(criarMovel);
+        }
+
+        // POST: CriarMovel/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public ActionResult DeleteConfirmed(int id)
+        {
+            CriarMovel criarMovel = db.CriarMoveis.Find(id);
+            db.CriarMoveis.Remove(criarMovel);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 }

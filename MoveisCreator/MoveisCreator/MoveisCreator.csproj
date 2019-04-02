@@ -132,6 +132,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CriarMovelController.cs" />
     <Compile Include="Controllers\EstiloController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MovelController.cs" />
@@ -140,9 +141,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201903300012354_primeira.cs" />
-    <Compile Include="Migrations\201903300012354_primeira.Designer.cs">
-      <DependentUpon>201903300012354_primeira.cs</DependentUpon>
+    <Compile Include="Migrations\201904021636036_Primeira.cs" />
+    <Compile Include="Migrations\201904021636036_Primeira.Designer.cs">
+      <DependentUpon>201904021636036_Primeira.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\CriarMovel.cs" />
@@ -198,7 +199,8 @@
     <Content Include="Views\Estilo\Details.cshtml" />
     <Content Include="Views\Estilo\Edit.cshtml" />
     <Content Include="Views\Estilo\Index.cshtml" />
-    <Content Include="Views\Movel\CriarMovel.cshtml" />
+    <Content Include="Views\CriarMovel\CriarMovel.cshtml" />
+    <Content Include="Views\CriarMovel\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -217,8 +219,8 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201903300012354_primeira.resx">
-      <DependentUpon>201903300012354_primeira.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201904021636036_Primeira.resx">
+      <DependentUpon>201904021636036_Primeira.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -13,8 +13,10 @@ namespace MovelCreator.Models
         [Key]
         public int Id { get; set; }
         
+        [ForeignKey("Movel")]
         public int MovelId { get; set; }
 
+        [ForeignKey("Estilo")]
         public int EstiloId { get; set; }
 
         public Movel Movel { get; set; }

@@ -12,13 +12,10 @@ namespace MovelCreator.Models
     {
         [Key]
         public int MovelId { get; set; }
-
+        
         [Required(ErrorMessage = "Campo Obrigatório!")]
         [Display(Name = "Nome do Movel")]
         public string NomeDoMovel { get; set; }
-        
-        [Display(Name = "Estilo")]
-        public Estilo Estilo { get; set; }
 
     }
 }

@@ -9,7 +9,7 @@ namespace MoveisCreator.DAO
 {
     public class CriarMovelDAO
     {
-        private static Entities entities = new Entities();
+        private static Entities entities = Singleton.Instance.Entities;
 
         // Criando Movel
         public static bool CriandoMovel(CriarMovel newMovel)

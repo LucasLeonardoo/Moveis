@@ -57,7 +57,7 @@ namespace MoveisCreator.Controllers
             novoMovel.Estilo = estiloAux;
             if (CriarMovelDAO.CriandoMovel(novoMovel))
             {
-                return RedirectToAction("Index", "Movel");
+                return RedirectToAction("Index", "CriarMovel");
             }
 
             return RedirectToAction("Index", "Home");
